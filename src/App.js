@@ -3,22 +3,20 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h1 className="title">Відьмак: Останнє бажання - Андрій Сапкофський</h1>
+    <p className="pages">Товста книга (багато сторінок)</p>
+    <h2>Рецензії</h2>
+    <ul>
+      <li>
+        Неймовірна сюжет! Мене захопили пригоди Геральда.
+      </li>
+      <li>
+        Унікальне фентазі, яка поєднується з науковою фантастикою!
+        Рекомендую кожному, хто грає в серію ігор "Відьмак"!
+      </li>
+    </ul>
+    </>
   );
 }
 
